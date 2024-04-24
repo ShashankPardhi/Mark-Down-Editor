@@ -1,0 +1,43 @@
+.markDown {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 95%;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(198, 200, 200);
+}
+
+.editor-preview-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.editor,
+.preview {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.editor h2,
+.preview h2 {
+    margin-top: 0;
+}
+
+.editor textarea {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
